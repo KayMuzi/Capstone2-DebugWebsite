@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-     <header class="site-header">
+    <header class="site-header">
         <h1>About Me</h1>
 
         <nav aria-label="Main navigation">
@@ -20,23 +20,59 @@
             </ul>
         </nav>
     </header>
-    
-    <div>
-        <h2>My Background</h2>
-        <p>I have been working in web development for several years.</p>
-        
-        <h3>Skills</h3>
-        <!-- Table should be here but is missing -->
-        <p>HTML, CSS, JavaScript</p>
-    </div>
-    
-    <div>
-        <h3>My Photo</h3>
-        <img src="images/profile.png" alt="Profile photo of Kayleigh Pepper">
-    </div>
-    
-    <div class="footer">
-        <p>Contact me at email@example.com</p>
-    </div>
+
+    <main>
+        <section class="content-section">
+            <h2>My Background</h2>
+            <p>
+            My background in Collections Banking has given me hands-on experience serving clients and understanding the systems and processes that support them. This experience sparked my passion for technology and inspired me to explore the other side of the industry. 
+            Now, as an aspiring Software Engineer, I want to use my banking knowledge and technical skills to build features and solutions that make a real impact for our clients. 
+        </section>
+
+        <section class="content-section">
+            <h2>Skills and Experience</h2>
+
+            <table>
+                <caption>My current technical skills and experience</caption>
+                <thead>
+                    <tr>
+                        <th scope="col">Skill</th>
+                        <th scope="col">Experience</th>
+                        <th scope="col">Level</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>HTML</td>
+                        <td>Semantic and accessible websites</td>
+                        <td>Advanced</td>
+                    </tr>
+                    <tr>
+                        <td>CSS</td>
+                        <td>Responsive layouts and visual design</td>
+                        <td>Advanced</td>
+                    </tr>
+                    <tr>
+                        <td>JavaScript</td>
+                        <td>Interactive web functionality</td>
+                        <td>Intermediate</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section class="content-section profile">
+            <h2>My Photo</h2>
+            <img
+                src="images/profile.png"
+                alt=" Picture of Kayleigh Pepper"
+            >
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>Contact me at <a href="mailto:KayleighPepper@icloud.com">KayleighPepper@icloud.com</a></p>
+        <p>&copy; 2026 My Portfolio. All rights reserved.</p>
+    </footer>
 </body>
 </html>
