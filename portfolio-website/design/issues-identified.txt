@@ -1,0 +1,45 @@
+# Issues Identified
+
+## HTML Issues
+
+1. Missing `lang` attribute on the `<html>` element.
+2. Missing `<meta charset="UTF-8">` metadata.
+3. Missing responsive viewport meta tag.
+4. Missing descriptive page metadata.
+5. Generic `<div>` elements were used instead of semantic HTML5 elements.
+6. Missing `<header>` structure.
+7. Missing navigation menu across all pages.
+8. Missing `<main>` elements for the primary page content.
+9. Missing `<section>` elements to organise related content.
+10. Missing `<footer>` semantic structure.
+11. The homepage image was missing descriptive `alt` text.
+12. The profile image was missing `alt` text.
+13. Project images were missing `alt` text.
+14. The About page was missing the required data table.
+15. The Projects page was missing a third project.
+16. The contact form had no labels associated with its controls.
+17. The email field incorrectly used `type="text"` instead of `type="email"`.
+18. The form did not provide enough different input/control types.
+19. The form had no HTML5 validation attributes.
+20. The submit button did not explicitly specify `type="submit"`.
+
+## CSS Issues
+
+21. The stylesheet used limited selector types.
+22. No pseudo-classes such as `:hover` or `:focus` were implemented.
+23. Navigation styling was completely missing.
+24. The hero section used a poor colour combination for accessibility.
+25. Images did not have appropriate responsive sizing and display rules.
+26. Table styling was completely missing.
+27. Form styling was incomplete.
+28. The footer was incorrectly aligned to the left.
+29. The stylesheet had limited use of the CSS box model.
+30. The CSS lacked responsive layout rules.
+31. Interactive elements did not have visible hover and focus states.
+32. The CSS had limited comments and organisation.
+
+## Approach to Fixing the Issues
+
+The website was rebuilt using semantic HTML5 elements and a consistent structure across all four pages. Accessible navigation, descriptive image alternative text, a structured data table and a fully labelled contact form were added. HTML5 validation attributes were also implemented.
+
+The CSS was reorganised using consistent naming and indentation. Responsive layouts, navigation styling, table and form styling, accessible colours, focus states and hover effects were added. The final design uses Flexbox/Grid where appropriate and demonstrates effective use of the CSS box model.
