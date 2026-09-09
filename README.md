@@ -8,7 +8,7 @@ The website was developed using HTML5 and CSS3, with a focus on semantic structu
 Issues Found
 The starter code contained several HTML and CSS errors and missing requirements. Major issues included:
 
-Generic <div> elements instead of semantic HTML5 elements.
+Generic div elements instead of semantic HTML5 elements.
 Missing navigation across the pages.
 Missing descriptive alt text for images.
 Missing skills/data table on the About page.
@@ -21,7 +21,7 @@ Poor colour contrast and alignment.
 Limited CSS selectors and missing interactive states.
 Missing responsive design.
 Fixes Implemented
-The HTML was reorganised using semantic elements including <header>, <nav>, <main>, <section>, <article>, and <footer>. A consistent navigation menu was added across all four pages.
+The HTML was reorganised using semantic elements including header, nav, main, section, article, and footer. A consistent navigation menu was added across all four pages.
 
 Images were provided with descriptive alternative text. A structured skills table was added to the About page, and a third project was added to the Projects page.
 
