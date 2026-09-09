@@ -1,5 +1,4 @@
-/*
-   Base document styles */
+/*Base document styles */
 
 * {
     box-sizing: border-box;
@@ -24,7 +23,7 @@ body {
 .site-header {
     margin: 0;
     padding: 1.5rem 2rem;
-    background-color: #1F1F1F;;
+    background-color: #1F1F1F;
     color: #ffffff;
     text-align: center;
 }
@@ -66,8 +65,7 @@ body {
     border-color: #ffffff;
 }
 
-/*
-   Main content and hero */
+/*Main content and hero */
 
 main {
     width: min(1100px, 92%);
@@ -77,7 +75,7 @@ main {
 .hero {
     margin: 2rem 0;
     padding: 3rem 2rem;
-    border: 1px solid #D6D6D2;;
+    border: 1px solid #D6D6D2;
     border-radius: 0.75rem;
     background-color: #dbeafe;
     color: #172554;
@@ -162,7 +160,7 @@ main {
     border-radius: 50%;
 }
 
-/* Project cards */
+/*Project cards */
 
 .project-grid {
     display: grid;
@@ -192,13 +190,13 @@ main {
     object-fit: cover;
 }
 
-.project-card h2,
+.project-card h3,
 .project-card p {
     margin-right: 1.25rem;
     margin-left: 1.25rem;
 }
 
-.project-card h2 {
+.project-card h3 {
     margin-top: 1.25rem;
     color: #172554;
 }
@@ -279,6 +277,8 @@ label {
 
 input[type="text"],
 input[type="email"],
+input[type="tel"],
+input[type="radio"]
 select,
 textarea {
     display: block;
@@ -305,7 +305,7 @@ input[type="checkbox"] {
 fieldset {
     margin: 1.5rem 0;
     padding: 1rem;
-    border: 2px solid #cbd5e1;
+    border: 2px solid #64748b;
     border-radius: 0.4rem;
 }
 
@@ -318,6 +318,7 @@ input[type="checkbox"] + label {
     display: inline;
     margin-bottom: 0;
     font-weight: 400;
+    
 }
 
 input:focus,
@@ -372,9 +373,7 @@ button:focus {
     color: #bfdbfe;
 }
 
-/* =========================
-   Responsive layout
-   ========================= */
+/* Responsive layout*/
 
 @media (max-width: 800px) {
     .project-grid {

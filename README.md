@@ -1,87 +1,89 @@
-# Creative Portfolio Website
+Creative Portfolio Website
 
-## Overview
+Overview
+This project is a four-page personal portfolio website created for an aspiring Software Engineer. It showcases my background, technical skills, projects, and provides a contact form for potential clients or employers.
 
-This project is a four-page personal portfolio website created for an aspiring software engineer. The website showcases my background, technical skills, projects and provides a contact form for potential clients or employers to get in touch.
+The website was developed using HTML5 and CSS3, with a focus on semantic structure, accessibility, responsive design, and professional presentation.
 
-The website was developed using **HTML5 and CSS3 only**, with a focus on semantic structure, accessibility, responsive design and professional presentation.
+Issues Found
+The starter code contained several HTML and CSS errors and missing requirements. Major issues included:
 
-## Issues Found
+Generic <div> elements instead of semantic HTML5 elements.
+Missing navigation across the pages.
+Missing descriptive alt text for images.
+Missing skills/data table on the About page.
+Missing third project.
+Incomplete contact form labels and controls.
+Incorrect email input type.
+Missing HTML5 form validation.
+Missing navigation, table, and form styling.
+Poor colour contrast and alignment.
+Limited CSS selectors and missing interactive states.
+Missing responsive design.
+Fixes Implemented
+The HTML was reorganised using semantic elements including <header>, <nav>, <main>, <section>, <article>, and <footer>. A consistent navigation menu was added across all four pages.
 
-The starter code contained several HTML and CSS errors and missing features. Major issues included:
+Images were provided with descriptive alternative text. A structured skills table was added to the About page, and a third project was added to the Projects page.
 
-* Generic `<div>` elements were used instead of semantic HTML elements.
-* Navigation was missing from all pages.
-* Images did not have descriptive `alt` text.
-* The About page was missing a data table.
-* The Projects page was missing a third project.
-* The contact form had missing labels and insufficient input types.
-* Form validation was missing.
-* The email field used the incorrect input type.
-* CSS navigation and table styling were missing.
-* The original design had colour contrast and alignment issues.
-* The CSS had limited selector types and no interactive pseudo-classes.
-* Responsive styling was missing.
+The contact form was completed with labelled controls, text, email and telephone inputs, a project-type dropdown, radio buttons, a textarea, and HTML5 validation attributes.
 
-## Fixes Implemented
+The CSS was reorganised and expanded to include responsive layouts, Flexbox/Grid, navigation, table and form styling, improved typography, colour contrast, spacing, hover states, and keyboard focus states.
 
-The HTML was reorganised using semantic elements including `<header>`, `<nav>`, `<main>`, `<section>`, `<article>` and `<footer>`. A consistent four-link navigation menu was added to all four pages.
+HTML Structure and Semantics
+Each page follows a consistent structure:
 
-Five images were included with descriptive alternative text. A structured skills table was added to the About page, and a third project was added to the Projects page.
+Header → Navigation → Main Content → Footer
 
-The contact form was redesigned with labels, text and email fields, a project-type dropdown, radio buttons and a textarea. HTML5 validation attributes were added to improve data collection and accessibility.
+Semantic sections and articles are used to organise related content and improve document structure, accessibility, and maintainability.
 
-The CSS was reorganised and expanded with responsive layouts, navigation styling, table styling, form styling, hover and focus states, improved colours, typography and spacing.
+CSS Styling Approach
 
-## HTML Structure
+The stylesheet uses element, class, ID, descendant, attribute, and pseudo-class selectors. Flexbox and CSS Grid are used for layout. The CSS box model is demonstrated through margins, padding, borders, and sizing. Media queries provide responsive layouts for smaller screens.
 
-Each page follows a consistent semantic structure:
-
-**Header → Navigation → Main Content → Footer**
-
-Sections and articles are used to organise related content without unnecessary `<div>` elements.
-
-## CSS Approach
-
-The stylesheet uses element, class, ID, descendant, attribute and pseudo-class selectors. Flexbox and Grid are used for layout, while margins, padding and borders provide consistent spacing and visual hierarchy. Hover and focus effects improve interactivity and accessibility.
-
-## Accessibility
+Accessibility Improvements
 
 Accessibility improvements include:
 
-* Descriptive image `alt` text.
-* Labels associated with all form controls.
-* Semantic HTML elements.
-* Keyboard-visible focus states.
-* Accessible colour contrast.
-* Descriptive page titles.
-* Responsive layouts for different screen sizes.
-* Accessible navigation with the current page identified.
+Descriptive image alt text.
+Labels associated with form controls.
+Semantic HTML5 elements.
+Keyboard-visible focus states.
+Improved colour contrast.
+Descriptive page titles and metadata.
+Responsive layouts.
+Accessible navigation with the current page identified using aria-current.
 
-## How to View
+How to View
 
-1. Clone or download the repository.
-2. Open the project folder.
-3. Open `index.html` in a web browser.
-4. Use the navigation menu to visit the About, Projects and Contact pages.
-
+Clone the repository or download the project.
+Open the portfolio-website folder.
+Open index.html in a web browser.
+Use the navigation menu to access the About, Projects, and Contact pages.
 No server or additional software is required.
 
-## Screenshots
+Screenshots
 
-Screenshots demonstrating the completed website are stored in the `screenshots/` folder.
+Screenshots demonstrating the completed website are available in the screenshots/ folder, including:
 
-They include:
+Homepage  - portfolio-website/screenshots/screenshot1.png
 
-* Homepage
-* About page
-* Projects page
-* Contact page
-* Completed contact form
-* Styled skills table
-* Navigation and hover state
+About page and styled skills table - portfolio-website/screenshots/screenshot2.png
 
-## Reflection
+Projects page - portfolio-website/screenshots/screenshot3.png
 
-The main challenge was identifying which parts of the starter code were incomplete and replacing the generic structure with meaningful semantic HTML. I was also contemplating what the actual outcome is supposed to be.  I also had to improve accessibility while keeping the design simple. I solved these issues by working through the requirements systematically, testing each page and organising the CSS into clear sections. The project helped me better understand semantic HTML, responsive CSS, form accessibility and the importance of testing before submission.
+Contact page and HTML form - portfolio-website/screenshots/screenshot4.png
 
+Navigation hover state - portfolio-website/screenshots/NavigationHover.png
+
+Form before improvements - portfolio-website/screenshots/BeforeForm.png
+
+Form after improvements - portfolio-website/screenshots/AfterForm.png
+
+The before/after screenshots demonstrate the improvements made to the contact form.
+
+Skills table - portfolio-website/screenshots/SkillsTable.png
+
+Reflection
+The main challenge was identifying the errors and missing requirements in the starter code while ensuring that the final website remained accessible, responsive, and consistent. I approached the debugging process systematically by reviewing each page against the project requirements, testing the HTML structure and form controls, and refining the CSS as issues were identified.
+
+This project strengthened my understanding of semantic HTML, CSS layouts, responsive design, form accessibility, and the importance of testing and validating code before submission.
