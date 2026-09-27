@@ -278,7 +278,7 @@ label {
 input[type="text"],
 input[type="email"],
 input[type="tel"],
-input[type="radio"]
+input[type="radio"],
 select,
 textarea {
     display: block;
